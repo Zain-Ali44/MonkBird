@@ -1,6 +1,6 @@
 .HeroSectoin {
     background-color: #000;
-    height: 100vh;
+    padding: 200px 0px;
     position: relative;
 
     .MianNavbar {
@@ -8,6 +8,7 @@
         width: 100%;
         left: 0;
         right: 0;
+        top: 0;
 
         .navbar {
             height: 49px;
@@ -38,9 +39,18 @@
             justify-content: space-between;
             max-width: 500px;
             width: 100%;
+.nav-item{
 
+    &:hover{
+        .nav-link {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
             .nav-link {
-                padding: 0px;
+                padding: 10px;
+                border-radius: 20px;
                 color: #fff;
                 font-size: 15px;
                 line-height: 1;
@@ -66,7 +76,6 @@
         color: #fff;
         font-size: 98px;
         font-weight: 700;
-        padding-top: 180px;
         text-align: center;
 
         span {
@@ -76,6 +85,7 @@
 
         }
     }
+
 
     .musicImg {
         position: absolute;
@@ -100,14 +110,75 @@
             z-index: 1;
         }
     }
-    .postImg{
+
+    .postImg {
         position: absolute;
-        top: 16%;
-        right: 10%;
+        top: 17%;
+        right: 9%;
         transform: translate(50%, 50%);
-        img{
+
+        img {
             border-radius: 20px;
-            transform: rotate(25deg); 
+            transform: rotate(25deg);
+        }
+    }
+
+    p {
+
+        color: #ABBBCF;
+        font-size: 24px;
+        max-width: 490px;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .InnerBtn {
+        gap: 0px 10px;
+        margin-top: 60px;
+    }
+
+    .reboteIMG {
+        position: absolute;
+        left: 20px;
+        bottom: 0px;
+        opacity: 0.5;
+
+        img {
+            border-radius: 30px;
+        }
+        &:last-of-type{
+            right: 20px;
+            left: auto;
+        }
+    }
+}
+
+.getBtn {
+    max-width: 151px;
+    width: 100%;
+    height: 42px;
+
+    background-color: #fff;
+    color: #000;
+    border-radius: 300px;
+    border: 1px solid #fff;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        background-color: unset;
+        color: #fff;
+    }
+
+    &:last-of-type {
+        color: #fff;
+        border: 1px solid #fff;
+        background-color: unset;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
         }
     }
 }
