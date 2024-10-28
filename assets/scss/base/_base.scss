@@ -152,6 +152,7 @@ ul {
   border: 2px solid #fff;
   mix-blend-mode: difference;
   border-radius: 50%;
+  z-index: 9;
   transform: translate(-50%, -50%); // so it is center with the cursor pointer
   transition:  ease-out;
 }
