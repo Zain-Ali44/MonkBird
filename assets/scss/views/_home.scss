@@ -1,0 +1,133 @@
+.HeroSectoin {
+    background-color: #000;
+    height: 100vh;
+    position: relative;
+
+    .MianNavbar {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        right: 0;
+
+        .navbar {
+            height: 49px;
+            padding: 0px;
+        }
+
+        .navbar-brand {
+            padding: 0px;
+            margin: 0px;
+
+            svg {
+                width: 32px;
+                color: #fff;
+            }
+
+            span {
+                color: #fff;
+                font-size: 15px;
+                line-height: 1.2;
+                font-weight: 700;
+            }
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 500px;
+            width: 100%;
+
+            .nav-link {
+                padding: 0px;
+                color: #fff;
+                font-size: 15px;
+                line-height: 1;
+                font-weight: 700;
+            }
+        }
+
+        .subNvabr {
+            max-width: 70% !important;
+            background-color: rgba(0, 0, 0, 0.4);
+            /* semi-transparent black */
+            backdrop-filter: blur(10px);
+            /* blur effect */
+            border-radius: 50px;
+            margin-top: 25px;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 98px;
+        font-weight: 700;
+        padding-top: 180px;
+        text-align: center;
+
+        span {
+            font-style: italic;
+            font-weight: 400;
+            font-family: 'wfont_90111e_0e90aa67e703460abd61925340b184c6,wf_0e90aa67e703460abd6192534,orig_instrument_serif_regular';
+
+        }
+    }
+
+    .musicImg {
+        position: absolute;
+        top: 16%;
+        left: 0%;
+        transform: translate(50%, 50%);
+
+        img {
+            border-radius: 20px;
+            transform: rotate(-25deg);
+        }
+
+        &::before {
+            content: "";
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+            width: 100%;
+            height: 100%;
+            transform: rotate(155deg);
+            z-index: 1;
+        }
+    }
+    .postImg{
+        position: absolute;
+        top: 16%;
+        right: 10%;
+        transform: translate(50%, 50%);
+        img{
+            border-radius: 20px;
+            transform: rotate(25deg); 
+        }
+    }
+}
+
+.BookBtn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: repeat padding-box border-box 61% 50% / 150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    /* fully rounded */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
+    transition: all 0.3s ease;
+}
+
+.BookBtn:hover {
+    background: repeat padding-box border-box 0% / auto scroll radial-gradient(circle at 0% 0%, #FFFFFF 0%, #1d2cf3 55%, #1d2cf3 100%);
+
+}
