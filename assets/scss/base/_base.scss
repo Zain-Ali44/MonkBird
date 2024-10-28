@@ -3,9 +3,8 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: $mainFonts;
-    color: $greyText;
-    font-size: var(--fs16);
+    cursor: none;
+  overflow-x: hidden;
 }
 ::before, ::after {
     border-width: 0;
@@ -143,5 +142,17 @@ ul {
 
 .fw300 {
     font-weight: 300 !important;
+}
+
+.cursor {
+  position: absolute; //so it is out of the flow
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #fff;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  transform: translate(-50%, -50%); // so it is center with the cursor pointer
+  transition:  ease-out;
 }
 

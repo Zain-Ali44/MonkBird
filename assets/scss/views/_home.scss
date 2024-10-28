@@ -8,6 +8,7 @@
         width: 100%;
         left: 0;
         right: 0;
+        z-index: 999;
         top: 0;
 
         .navbar {
@@ -202,3 +203,108 @@
     background: repeat padding-box border-box 0% / auto scroll radial-gradient(circle at 0% 0%, #FFFFFF 0%, #1d2cf3 55%, #1d2cf3 100%);
 
 }
+
+// FAQsec start
+.FAQsec{
+    padding: 100px 0px;
+    background-color: #000;
+    h2{
+        color: #fff;
+        font-size: 51px;
+        line-height: 1.2;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .accordion{
+        max-width: 700px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accordion-header{
+        margin-bottom: 0px;
+    }
+    .accordion-button.collapsed{
+       
+        i{
+            transform: rotate(0deg);
+        }
+    }
+    .accordion-button{
+        color: #fff;
+        font-size: 17px;
+        line-height: 1.2;
+        font-weight: 500;
+        &::after{
+            display: none;
+        }
+        i{
+            transform: rotate(180deg);
+        } 
+    }
+    .accordion-body{
+        
+        color: #fff;
+        padding: 10px 20px 60px 20px;
+       
+    }
+}
+// FAQsec end
+
+//FOOTER START
+.FooterSec{
+    background-color: #000;
+    padding: 40px 0px;
+    .InnerFooter {
+        align-items: start !important;
+        margin-bottom: 50px;
+    }
+    h1{
+        font-size: 200px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .itemFooter.With30{
+        width: calc(30% - 15px);
+    }
+    .itemFooter{
+        width: calc(20% - 15px);
+        
+        h3{
+            color: #fff;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #fff;
+        }
+        .footerlink{
+            color: #D4D1D3;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: left;
+            line-height: 1.6;
+        }
+        .InnerIcon{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+        }
+    }
+    .InnerCopyRight{
+        flex-wrap: wrap;
+        span{
+            color: #fff;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 400;
+        }
+    }
+}
+// FOOTER END

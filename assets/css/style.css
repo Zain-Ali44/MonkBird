@@ -51,9 +51,8 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: "Poppins";
-  color: #3a3a3a;
-  font-size: var(--fs16);
+  cursor: none;
+  overflow-x: hidden;
 }
 
 ::before, ::after {
@@ -186,6 +185,18 @@ ul {
   font-weight: 300 !important;
 }
 
+.cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #fff;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: ease-out;
+}
+
 .HeroSectoin {
   background-color: #000;
   padding: 200px 0px;
@@ -196,6 +207,7 @@ ul {
   width: 100%;
   left: 0;
   right: 0;
+  z-index: 999;
   top: 0;
 }
 .HeroSectoin .MianNavbar .navbar {
@@ -358,6 +370,100 @@ ul {
 
 .BookBtn:hover {
   background: repeat padding-box border-box 0%/auto scroll radial-gradient(circle at 0% 0%, #FFFFFF 0%, #1d2cf3 55%, #1d2cf3 100%);
+}
+
+.FAQsec {
+  padding: 100px 0px;
+  background-color: #000;
+}
+.FAQsec h2 {
+  color: #fff;
+  font-size: 51px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.FAQsec .accordion {
+  max-width: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.FAQsec .accordion-header {
+  margin-bottom: 0px;
+}
+.FAQsec .accordion-button.collapsed i {
+  transform: rotate(0deg);
+}
+.FAQsec .accordion-button {
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.FAQsec .accordion-button::after {
+  display: none;
+}
+.FAQsec .accordion-button i {
+  transform: rotate(180deg);
+}
+.FAQsec .accordion-body {
+  color: #fff;
+  padding: 10px 20px 60px 20px;
+}
+
+.FooterSec {
+  background-color: #000;
+  padding: 40px 0px;
+}
+.FooterSec .InnerFooter {
+  align-items: start !important;
+  margin-bottom: 50px;
+}
+.FooterSec h1 {
+  font-size: 200px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.FooterSec .itemFooter.With30 {
+  width: calc(30% - 15px);
+}
+.FooterSec .itemFooter {
+  width: calc(20% - 15px);
+}
+.FooterSec .itemFooter h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.FooterSec .itemFooter p {
+  color: #fff;
+}
+.FooterSec .itemFooter .footerlink {
+  color: #D4D1D3;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: left;
+  line-height: 1.6;
+}
+.FooterSec .itemFooter .InnerIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.FooterSec .InnerCopyRight {
+  flex-wrap: wrap;
+}
+.FooterSec .InnerCopyRight span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1680px) {
