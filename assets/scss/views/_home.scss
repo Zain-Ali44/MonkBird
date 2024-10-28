@@ -40,15 +40,17 @@
             justify-content: space-between;
             max-width: 500px;
             width: 100%;
-.nav-item{
 
-    &:hover{
-        .nav-link {
-            background-color: #fff;
-            color: #000;
-        }
-    }
-}
+            .nav-item {
+
+                &:hover {
+                    .nav-link {
+                        background-color: #fff;
+                        color: #000;
+                    }
+                }
+            }
+
             .nav-link {
                 padding: 10px;
                 border-radius: 20px;
@@ -149,7 +151,8 @@
         img {
             border-radius: 30px;
         }
-        &:last-of-type{
+
+        &:last-of-type {
             right: 20px;
             left: auto;
         }
@@ -205,10 +208,11 @@
 }
 
 // FAQsec start
-.FAQsec{
+.FAQsec {
     padding: 100px 0px;
     background-color: #000;
-    h2{
+
+    h2 {
         color: #fff;
         font-size: 51px;
         line-height: 1.2;
@@ -216,90 +220,182 @@
         text-align: center;
         margin-bottom: 40px;
     }
-    .accordion{
+
+    .accordion {
         max-width: 700px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-    .accordion-header{
+
+    .accordion-header {
         margin-bottom: 0px;
     }
-    .accordion-button.collapsed{
-       
-        i{
+
+    .accordion-button.collapsed {
+
+        i {
             transform: rotate(0deg);
         }
     }
-    .accordion-button{
+
+    .accordion-button {
         color: #fff;
         font-size: 17px;
         line-height: 1.2;
         font-weight: 500;
-        &::after{
+
+        &::after {
             display: none;
         }
-        i{
+
+        i {
             transform: rotate(180deg);
-        } 
+        }
     }
-    .accordion-body{
-        
+
+    .accordion-body {
+
         color: #fff;
         padding: 10px 20px 60px 20px;
-       
+
     }
 }
+
 // FAQsec end
 
+// Gift img start
+
+// Gift img end
+.GiftImg {
+    background-color: #000;
+    padding: 60px 0px;
+
+    h2 {
+        font-size: 51px;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+
+        span {
+            color: #fff;
+            font-style: italic;
+            font-weight: 400;
+            letter-spacing: -0.03em;
+        }
+    }
+
+    p {
+        color: #999999;
+        line-height: 1.2;
+        font-size: 24px;
+        font-weight: 500;
+        max-width: 580px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .InnerGiftImg {
+        flex-wrap: wrap;
+        gap: 40px 0px;
+        margin-top: 80px;
+        .GiftItem {
+            width: calc(33.33% - 15px);
+            text-align: center;
+           
+
+            .giftImgbox {
+                max-width: 85px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            h3 {
+                color: #fff;
+                font-size: 24px;
+                line-height: 1.2;
+                font-weight: 500;
+
+            }
+
+            p {
+                margin-top: 0px;
+                font-size: 20px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
 //FOOTER START
-.FooterSec{
+.FooterSec {
     background-color: #000;
     padding: 40px 0px;
+
     .InnerFooter {
         align-items: start !important;
         margin-bottom: 50px;
     }
-    h1{
+
+    h1 {
         font-size: 200px;
         font-weight: 700;
         text-align: center;
         color: #fff;
         margin-bottom: 10px;
     }
-    .itemFooter.With30{
+
+    .itemFooter.With30 {
         width: calc(30% - 15px);
     }
-    .itemFooter{
+
+    .itemFooter {
         width: calc(20% - 15px);
-        
-        h3{
+
+        h3 {
             color: #fff;
             font-size: 20px;
             line-height: 1.2;
             font-weight: 700;
             margin-bottom: 20px;
         }
-        p{
+
+        p {
             color: #fff;
         }
-        .footerlink{
+
+        .footerlink {
             color: #D4D1D3;
             font-size: 16px;
             text-decoration: none;
             text-align: left;
             line-height: 1.6;
         }
-        .InnerIcon{
+
+        .InnerIcon {
             display: flex;
             align-items: center;
             gap: 8px;
 
         }
     }
-    .InnerCopyRight{
+
+    .InnerCopyRight {
         flex-wrap: wrap;
-        span{
+
+        span {
             color: #fff;
             font-size: 14px;
             line-height: 1.2;
@@ -307,4 +403,5 @@
         }
     }
 }
+
 // FOOTER END
