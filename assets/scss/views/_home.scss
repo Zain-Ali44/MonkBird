@@ -338,7 +338,96 @@
         }
     }
 }
+.VerstileSec{
+    padding: 100px 0px;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        background-color: #000;
+        h2{
+            color: #FFFFFF;
+        }
+        .Innervlog{
+            border-bottom: 1px solid rgba(242, 242, 242, 0.4); 
+            .VlogItem{
+                h3{
+                    color: #fff;
+                }
+                p{
+                    color: #fff;
+                }
+                .MoveBtn{
+                    background-color: #fff;
+                }
+            }
+        }
+      
+           
+        
+    }
+    h2{
+        color: #000;
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 700;
+        span{
+            font-style: italic;
+            font-weight: 400;
+        }
+    }
+    p{
+        color: #86868F;
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    .Innervlog{
+        margin-top: 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        transition: all 0.5s ease-in-out;
+        position: relative;
+        right: 0;
+        &:hover{
+            right: 60px;
+        }
+        .VlogItem{
+            width: calc(33.33% - 15px);
+            h3{
+                color: #000;
+                font-size: 34px;
+                line-height: 1.2;
+                font-weight: 700;
+            }
+            p{
+                font-size: 14px;
+                color: #000;
+                line-height: 1.5;
 
+                
+            }
+            .MoveBtn{
+                max-width: 120px;
+                justify-content: end !important;
+                width: 100%;
+                height: 48px;
+                border-radius: 30px;
+                margin-left: auto;
+                transition: all 0.5s ease-in-out;
+             svg{
+                transform: rotate(-60deg);
+             }
+                &:hover{
+                    background-color: #DF7162;
+                    transition: all 0.5s ease-in-out;
+                    svg{
+                        transform: rotate(-120deg);
+                    }
+                }
+            }
+            
+        }
+    }
+}
 //FOOTER START
 .FooterSec {
     background-color: #000;
