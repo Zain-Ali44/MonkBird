@@ -543,6 +543,81 @@ ul {
   transform: rotate(-120deg);
 }
 
+.inspireSec {
+  background-color: #000;
+  padding: 60px 0px;
+}
+.inspireSec .container {
+  max-width: 100% !important;
+}
+.inspireSec h2 {
+  color: #fff;
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+  padding-left: 70px;
+}
+.inspireSec h2 span {
+  font-weight: 400;
+  font-style: italic;
+}
+.inspireSec p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #999999;
+  padding-left: 70px;
+}
+.inspireSec .InnerInspire {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  width: 70%;
+  margin-left: auto;
+}
+.inspireSec .InnerInspire .InspireItem {
+  width: calc(33.33% - 10px);
+  margin-bottom: 60px;
+}
+.inspireSec .InnerInspire .InspireBox {
+  border-radius: 20px;
+  background-color: rgb(223, 112, 97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 321px;
+}
+.inspireSec .InnerInspire .InspireBox.Products {
+  background-color: rgb(171, 187, 207);
+}
+.inspireSec .InnerInspire .InspireBox.reals {
+  background-color: rgb(253, 243, 151);
+}
+.inspireSec .InnerInspire .InspireBox.talking {
+  background-color: rgb(100, 100, 108);
+}
+.inspireSec .InnerInspire .InspireBox.facelace {
+  background-color: rgb(153, 153, 153);
+}
+.inspireSec .InnerInspire .InspireBox.tiktok {
+  background-color: rgb(174, 239, 197);
+}
+.inspireSec .InnerInspire .InspireBox h3 {
+  color: #000;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: italic;
+}
+.inspireSec .InnerInspire h3 {
+  font-size: 20px;
+  color: #999999;
+  line-height: 1.4;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
 .FooterSec {
   background-color: #000;
   padding: 40px 0px;

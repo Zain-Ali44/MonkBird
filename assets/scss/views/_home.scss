@@ -303,10 +303,11 @@
         flex-wrap: wrap;
         gap: 40px 0px;
         margin-top: 80px;
+
         .GiftItem {
             width: calc(33.33% - 15px);
             text-align: center;
-           
+
 
             .giftImgbox {
                 max-width: 85px;
@@ -338,74 +339,90 @@
         }
     }
 }
-.VerstileSec{
+
+.VerstileSec {
     padding: 100px 0px;
     transition: all 0.5s ease-in-out;
-    &:hover{
+
+    &:hover {
         background-color: #000;
-        h2{
+
+        h2 {
             color: #FFFFFF;
         }
-        .Innervlog{
-            border-bottom: 1px solid rgba(242, 242, 242, 0.4); 
-            .VlogItem{
-                h3{
+
+        .Innervlog {
+            border-bottom: 1px solid rgba(242, 242, 242, 0.4);
+
+            .VlogItem {
+                h3 {
                     color: #fff;
                 }
-                p{
+
+                p {
                     color: #fff;
                 }
-                .MoveBtn{
+
+                .MoveBtn {
                     background-color: #fff;
                 }
             }
         }
-      
-           
-        
+
+
+
     }
-    h2{
+
+    h2 {
         color: #000;
         font-size: 42px;
         line-height: 1.2;
         font-weight: 700;
-        span{
+
+        span {
             font-style: italic;
             font-weight: 400;
         }
     }
-    p{
+
+    p {
         color: #86868F;
         font-size: 42px;
         line-height: 1.2;
         font-weight: 700;
     }
-    .Innervlog{
+
+    .Innervlog {
         margin-top: 40px;
         padding-bottom: 30px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.4);
         transition: all 0.5s ease-in-out;
         position: relative;
         right: 0;
-        &:hover{
+
+        &:hover {
             right: 60px;
         }
-        .VlogItem{
+
+        .VlogItem {
             width: calc(33.33% - 15px);
-            h3{
+
+            h3 {
                 color: #000;
                 font-size: 34px;
                 line-height: 1.2;
                 font-weight: 700;
             }
-            p{
+
+            p {
                 font-size: 14px;
                 color: #000;
                 line-height: 1.5;
 
-                
+
             }
-            .MoveBtn{
+
+            .MoveBtn {
                 max-width: 120px;
                 justify-content: end !important;
                 width: 100%;
@@ -413,21 +430,116 @@
                 border-radius: 30px;
                 margin-left: auto;
                 transition: all 0.5s ease-in-out;
-             svg{
-                transform: rotate(-60deg);
-             }
-                &:hover{
+
+                svg {
+                    transform: rotate(-60deg);
+                }
+
+                &:hover {
                     background-color: #DF7162;
                     transition: all 0.5s ease-in-out;
-                    svg{
+
+                    svg {
                         transform: rotate(-120deg);
                     }
                 }
             }
-            
+
         }
     }
 }
+
+.inspireSec {
+    background-color: #000;
+    padding: 60px 0px;
+
+    .container {
+        max-width: 100% !important;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 700;
+        padding-left: 70px;
+
+        span {
+            font-weight: 400;
+            font-style: italic;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.4;
+        color: #999999;
+        padding-left: 70px;
+    }
+
+    .InnerInspire {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        width: 70%;
+        margin-left: auto;
+
+        .InspireItem {
+            width: calc(33.33% - 10px);
+            margin-bottom: 60px;
+        }
+
+        .InspireBox {
+
+            border-radius: 20px;
+            background-color: rgb(223 112 97);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 321px;
+
+            &.Products {
+                background-color: rgb(171 187 207);
+            }
+
+            &.reals {
+                background-color: rgb(253 243 151);
+
+            }
+
+            &.talking {
+                background-color: rgb(100 100 108);
+
+            }
+            
+            &.facelace {
+                background-color: rgb(153 153 153);
+            }
+            &.tiktok{
+background-color: rgb(174 239 197);
+            }
+
+            h3 {
+                color: #000;
+                font-weight: 400;
+                font-size: 70px;
+                font-style: italic;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #999999;
+            line-height: 1.4;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
+}
+
 //FOOTER START
 .FooterSec {
     background-color: #000;
