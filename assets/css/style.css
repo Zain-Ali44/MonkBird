@@ -618,6 +618,211 @@ ul {
   margin-top: 10px;
 }
 
+.WellComWrapper {
+  background-color: #111111;
+  padding: 100px 0px;
+}
+.WellComWrapper .container {
+  max-width: 100% !important;
+}
+.WellComWrapper h2 {
+  color: #fff;
+  font-size: 198px;
+  line-height: 1.1;
+  font-weight: 700;
+  position: relative;
+}
+.WellComWrapper h2 span {
+  font-style: italic;
+  font-weight: 400;
+}
+.WellComWrapper h3 {
+  color: #fff;
+  font-size: 192px;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://assets.website-files.com/646c5bfe3652aed39c2f483f/647722063684a766caa5a3df_rocks.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.rocks-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensure it's part of the stacking context */
+}
+.rocks-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: 50%;
+  background-size: cover;
+  margin: auto;
+  /* Remove position absolute */
+  /* Remove top, bottom, left, right */
+}
+.rocks-wrapper .waves-video {
+  z-index: -1;
+  height: 100vh;
+  position: relative;
+}
+
+.Fanssec {
+  background: url(../img/bgBlue.jpg);
+  padding: 60px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.Fanssec::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.Fanssec h2 {
+  color: #fff;
+  font-size: 198px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.Fanssec h2 span {
+  font-weight: 400;
+  font-style: italic;
+}
+.Fanssec h2:last-of-type {
+  margin-top: 20px;
+  text-align: right;
+}
+.Fanssec span {
+  color: #fff;
+  font-size: 198px;
+  font-weight: 400;
+  font-style: italic;
+}
+.Fanssec h3 {
+  color: #fff;
+  font-size: 198px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.Fanssec .InnerVideoEdit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.Fanssec .InnerVideoEdit .Video50 {
+  width: calc(50% - 20px);
+}
+.Fanssec .InnerVideoEdit .Video50 video {
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+.Fanssec .InnerVideoEdit h5 {
+  font-size: 16px;
+  color: #3EDDC9;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Fanssec .InnerVideoEdit h6 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.Fanssec .InnerVideoEdit p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.text-danger-glow {
+  color: #ff4141;
+  text-shadow: 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00, 0 0 80px #f00;
+}
+
+.blink {
+  animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.TalkSection {
+  background: url(../img/talkus.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+}
+.TalkSection::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.TalkSection .InnerTalk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TalkSection .contentTalk {
+  width: calc(40% - 15px);
+}
+.TalkSection h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.TalkSection p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.TalkSection .RequestBtn {
+  max-width: 194px;
+  height: 56px;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #A394FF;
+  margin-top: 30px;
+}
+
 .FooterSec {
   background-color: #000;
   padding: 40px 0px;
