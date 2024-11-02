@@ -6,3 +6,77 @@
 //   cursor.style.top = e.pageY + "px";
 //   cursor.style.left = e.pageX + "px";
 // }
+// Get all section elements and navbar links
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    const changeActiveLinkOnScroll = () => {
+        let currentSection = ''; // Variable to store the current section
+
+        // Loop through each section to determine which one is in the viewport
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 50;  // Adjust for the navbar height
+            const sectionHeight = section.clientHeight;
+
+            // Check if the section is in the viewport (top within range)
+            if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                currentSection = section.getAttribute('id'); // Get the current section id
+            }
+        });
+
+        // Loop through the navbar links and add/remove 'active' class
+        navLinks.forEach(link => {
+            // Remove 'active' class from all links first
+            link.classList.remove('active'); 
+
+            // Check if the href attribute matches the current section id
+            if (link.getAttribute('href') === `#${currentSection}`) {
+                link.classList.add('active');  // Add 'active' class only to the correct link
+            }
+        });
+    };
+
+    // Listen to the scroll event
+    window.addEventListener('scroll', changeActiveLinkOnScroll);
+});
+
+
+
+$.fn.jQuerySimpleCounter = function( options ) {
+    var settings = $.extend({
+        start:  0,
+        end:    100,
+        easing: 'swing',
+        duration: 400,
+        complete: ''
+    }, options );
+
+    var thisElement = $(this);
+
+    $({count: settings.start}).animate({count: settings.end}, {
+        duration: settings.duration,
+        easing: settings.easing,
+        step: function() {
+            var mathCount = Math.ceil(this.count);
+            thisElement.text(mathCount);
+        },
+        complete: settings.complete
+    });
+};
+
+
+$('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+
+
+
+  /* AUTHOR LINK */
+ $('.about-me-img').hover(function(){
+        $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
+    }, function(){
+        $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
+    });

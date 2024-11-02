@@ -30,6 +30,7 @@
                 font-size: 15px;
                 line-height: 1.2;
                 font-weight: 700;
+                padding-left: 10px;
             }
         }
 
@@ -58,6 +59,12 @@
                 font-size: 15px;
                 line-height: 1;
                 font-weight: 700;
+
+            }
+
+            .nav-link.active {
+                background-color: #DF7162 !important;
+                color: #000;
             }
         }
 
@@ -514,12 +521,13 @@
                 background-color: rgb(100 100 108);
 
             }
-            
+
             &.facelace {
                 background-color: rgb(153 153 153);
             }
-            &.tiktok{
-background-color: rgb(174 239 197);
+
+            &.tiktok {
+                background-color: rgb(174 239 197);
             }
 
             h3 {
@@ -539,22 +547,27 @@ background-color: rgb(174 239 197);
         }
     }
 }
-.WellComWrapper{
+
+.WellComWrapper {
     background-color: #111111;
     padding: 100px 0px;
-    .container{
-max-width: 100% !important;
+
+    .container {
+        max-width: 100% !important;
     }
-    h2{
+
+    h2 {
         color: #fff;
         font-size: 198px;
         line-height: 1.1;
         font-weight: 700;
         position: relative;
-        span{
+
+        span {
             font-style: italic;
             font-weight: 400;
         }
+
         // p{
         //     font-size: 23px;
         //     color: #1d2cf3;
@@ -566,25 +579,29 @@ max-width: 100% !important;
         //     max-width: 500px;
         // }
     }
-    h3{
+
+    h3 {
         color: #fff;
         font-size: 192px;
-        -webkit-text-fill-color: transparent;
-        background-image: url('https://assets.website-files.com/646c5bfe3652aed39c2f483f/647722063684a766caa5a3df_rocks.jpg');
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-background-clip: text;
-        background-clip: text;
         font-weight: 700;
+        text-transform: uppercase;
+        // -webkit-text-fill-color: transparent;
+        // background-image: url('https://assets.website-files.com/646c5bfe3652aed39c2f483f/647722063684a766caa5a3df_rocks.jpg');
+        // background-position: 50%;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // -webkit-background-clip: text;
+        // background-clip: text;
+        // font-weight: 700;
     }
 }
 
 .rocks-wrapper {
     position: sticky;
     top: 0;
-    z-index: 10; /* Ensure it's part of the stacking context */
-    
+    z-index: 10;
+    /* Ensure it's part of the stacking context */
+
     video {
         width: 100%;
         height: 100%;
@@ -602,14 +619,16 @@ max-width: 100% !important;
         position: relative;
     }
 }
-.Fanssec{
+
+.Fanssec {
     background: url(../img/bgBlue.jpg);
-    padding: 60px 0px; 
+    padding: 60px 0px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
-    &::after{
+
+    &::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -617,83 +636,102 @@ max-width: 100% !important;
         background-color: rgba(0, 0, 0, 0.7);
         top: 0;
         left: 0;
-        right: 0;bottom: 0;
+        right: 0;
+        bottom: 0;
         z-index: -1;
     }
-    h2{
+
+    h2 {
         color: #fff;
         font-size: 198px;
         line-height: 1.1;
         font-weight: 700;
-        span{
+
+        span {
             font-weight: 400;
             font-style: italic;
         }
-        &:last-of-type{
+
+        &:last-of-type {
             margin-top: 20px;
             text-align: right;
         }
     }
-    span{
+
+    span {
         color: #fff;
-        font-size: 198px; 
+        font-size: 198px;
         font-weight: 400;
         font-style: italic;
     }
-    h3{
+
+    h3 {
         color: #fff;
         font-size: 198px;
         font-weight: 700;
         text-transform: uppercase;
     }
-    .InnerVideoEdit{
+
+    .InnerVideoEdit {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: 60px;
-        .Video50{
+
+        .Video50 {
             width: calc(50% - 20px);
-            video{
+
+            video {
                 width: 100%;
                 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                 border-radius: 15px;
             }
         }
 
-h5{
-    font-size: 16px;
-    color: #3EDDC9;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-h6{
-    color: #fff;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.3;
-}
-p{
-    color: #fff;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-}
+        h5 {
+            font-size: 16px;
+            color: #3EDDC9;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            color: #fff;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        p {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 400;
+        }
     }
 }
+
 .text-danger-glow {
     color: #ff4141;
     text-shadow: 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00, 0 0 80px #f00;
-  }
-  
-  .blink {
-    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-  }
-  @keyframes blinker {  
-    from { opacity: 1; }
-    to { opacity: 0; }
-  }
-  .TalkSection{
+}
+
+.blink {
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+@keyframes blinker {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.TalkSection {
     background: url(../img/talkus.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -701,10 +739,11 @@ p{
     background-position: center center;
     position: relative;
     z-index: 1;
-    &::before{
+
+    &::before {
         content: "";
         position: absolute;
-        background:rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.8);
         width: 100%;
         height: 100%;
         top: 0;
@@ -714,28 +753,33 @@ p{
         z-index: -1;
 
     }
-    .InnerTalk{
+
+    .InnerTalk {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .contentTalk{
+
+    .contentTalk {
         width: calc(40% - 15px);
     }
-    h2{
+
+    h2 {
         font-size: 50px;
         color: #fff;
         font-weight: 700;
         line-height: 1.3;
 
     }
-    p{
+
+    p {
         color: #fff;
         font-size: 20px;
         font-weight: 400;
         line-height: 1.2;
     }
-    .RequestBtn{
+
+    .RequestBtn {
         max-width: 194px;
         height: 56px;
         width: 100%;
@@ -746,10 +790,110 @@ p{
         font-size: 18px;
         font-weight: 400;
         color: #fff;
-        background-color: #A394FF;
+        background: repeat padding-box border-box 61% 50% / 150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
         margin-top: 30px;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            background: repeat padding-box border-box 0% / auto scroll radial-gradient(circle at 0% 0%, #FFFFFF 0%, #1d2cf3 55%, #1d2cf3 100%);
+        }
     }
-  }
+}
+
+.AwaitSec {
+    padding: 80px 0px;
+    background-color: #000;
+
+    .container {
+        max-width: 70% !important;
+    }
+
+    h2 {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #FFf;
+        text-align: center;
+        margin-top: 20px;
+
+
+        span {
+            font-style: italic;
+            font-weight: 400;
+        }
+
+    }
+
+    .InnerAwait {
+        margin-top: 70px;
+    }
+
+    .Await50 {
+        width: calc(50% - 15px);
+    }
+
+    .AwaitGift {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h3 {
+            color: #fff;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #999999;
+            font-size: 18px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+
+        }
+
+        img {
+            max-width: 76px;
+            width: 100%;
+        }
+    }
+
+    .awiseContent {
+        padding: 30px 30px 130px 30px;
+        border-radius: 20px;
+        background-color: #161616;
+        position: relative;
+
+        p {
+            font-size: 20px;
+            line-height: 1.2;
+            color: #999999;
+            margin-top: 20px;
+        }
+
+        .BookBtn {
+            background: repeat padding-box border-box 0% 0% / auto auto scroll linear-gradient(30deg, #A1A1A1 0%, #6F758A 100%);
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .facecover {
+            max-width: 200px;
+            width: 100%;
+            top: 20%;
+            position: absolute;
+            right: -12%;
+            transform: rotate(-17deg);
+        }
+
+        .Innertext {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+}
+
 //FOOTER START
 .FooterSec {
     background-color: #000;
@@ -766,6 +910,7 @@ p{
         text-align: center;
         color: #fff;
         margin-bottom: 10px;
+        text-transform: uppercase;
     }
 
     .itemFooter.With30 {

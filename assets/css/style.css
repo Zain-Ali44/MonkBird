@@ -213,6 +213,7 @@ ul {
   font-size: 15px;
   line-height: 1.2;
   font-weight: 700;
+  padding-left: 10px;
 }
 .HeroSectoin .MianNavbar .navbar-nav {
   margin-left: auto;
@@ -233,6 +234,10 @@ ul {
   font-size: 15px;
   line-height: 1;
   font-weight: 700;
+}
+.HeroSectoin .MianNavbar .navbar-nav .nav-link.active {
+  background-color: #DF7162 !important;
+  color: #000;
 }
 .HeroSectoin .MianNavbar .subNvabr {
   max-width: 70% !important;
@@ -639,20 +644,15 @@ ul {
 .WellComWrapper h3 {
   color: #fff;
   font-size: 192px;
-  -webkit-text-fill-color: transparent;
-  background-image: url("https://assets.website-files.com/646c5bfe3652aed39c2f483f/647722063684a766caa5a3df_rocks.jpg");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-clip: text;
-  background-clip: text;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .rocks-wrapper {
   position: sticky;
   top: 0;
-  z-index: 10; /* Ensure it's part of the stacking context */
+  z-index: 10;
+  /* Ensure it's part of the stacking context */
 }
 .rocks-wrapper video {
   width: 100%;
@@ -819,8 +819,90 @@ ul {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  background-color: #A394FF;
+  background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
   margin-top: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.TalkSection .RequestBtn:hover {
+  background: repeat padding-box border-box 0%/auto scroll radial-gradient(circle at 0% 0%, #FFFFFF 0%, #1d2cf3 55%, #1d2cf3 100%);
+}
+
+.AwaitSec {
+  padding: 80px 0px;
+  background-color: #000;
+}
+.AwaitSec .container {
+  max-width: 70% !important;
+}
+.AwaitSec h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFf;
+  text-align: center;
+  margin-top: 20px;
+}
+.AwaitSec h2 span {
+  font-style: italic;
+  font-weight: 400;
+}
+.AwaitSec .InnerAwait {
+  margin-top: 70px;
+}
+.AwaitSec .Await50 {
+  width: calc(50% - 15px);
+}
+.AwaitSec .AwaitGift {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AwaitSec .AwaitGift h3 {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.AwaitSec .AwaitGift p {
+  color: #999999;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.AwaitSec .AwaitGift img {
+  max-width: 76px;
+  width: 100%;
+}
+.AwaitSec .awiseContent {
+  padding: 30px 30px 130px 30px;
+  border-radius: 20px;
+  background-color: #161616;
+  position: relative;
+}
+.AwaitSec .awiseContent p {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #999999;
+  margin-top: 20px;
+}
+.AwaitSec .awiseContent .BookBtn {
+  background: repeat padding-box border-box 0% 0%/auto auto scroll linear-gradient(30deg, #A1A1A1 0%, #6F758A 100%);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.AwaitSec .awiseContent .facecover {
+  max-width: 200px;
+  width: 100%;
+  top: 20%;
+  position: absolute;
+  right: -12%;
+  transform: rotate(-17deg);
+}
+.AwaitSec .awiseContent .Innertext {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .FooterSec {
@@ -837,6 +919,7 @@ ul {
   text-align: center;
   color: #fff;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .FooterSec .itemFooter.With30 {
   width: calc(30% - 15px);
