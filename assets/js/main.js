@@ -67,10 +67,10 @@ $.fn.jQuerySimpleCounter = function( options ) {
 };
 
 
-$('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
-$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
-$('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
-$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+$('#number1').jQuerySimpleCounter({end: 1,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 2,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 1,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 3,duration: 2500});
 
 
 
@@ -80,3 +80,22 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
     }, function(){
         $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
     });
+
+/// Animation code
+$(document).ready(function () {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                $(entry.target).addClass('animate__animated animate__fadeInLeftBig');
+                observer.unobserve(entry.target); // Optionally unobserve the element after animation
+            }
+        });
+    }, {
+        threshold: 0.1 // Trigger when 10% of the element is visible
+    });
+
+    // Select all elements with the class 'animateMe' using jQuery
+    $('.animateMe').each(function () {
+        observer.observe(this);
+    });
+});
