@@ -452,7 +452,7 @@ ul {
   background-color: #000;
   color: white;
   height: 45px;
-  border-radius: unset;
+  border-radius: 10px;
 }
 .SubmitForm .InnerSubmit input::placeholder {
   color: #FFF;
