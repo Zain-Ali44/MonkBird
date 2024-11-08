@@ -1,6 +1,15 @@
 // Ipad pro 
 // `xl` applies to large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+    .FAQsec{
+        background-color: #000 !important;
+        h2{
+            color: #fff !important;
+        }
+        .accordion-button{
+color: #fff !important;
+        }
+    }
     .HeroSectoin .MianNavbar .subNvabr {
         max-width: 75% !important;
     }
@@ -83,6 +92,18 @@
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+    .FAQsec .Accodion50 {
+        width: 100%;
+    }
+    
+    .FAQsec .InnerAccordion {
+        
+        flex-wrap: wrap;
+    }
+    
+    .InnerSubmit{
+        margin-bottom: 20px;
+    }
     .HeroSectoin .MianNavbar .navbar {
         height: 35px;
     }

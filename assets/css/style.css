@@ -389,7 +389,7 @@ ul {
   justify-content: space-between;
 }
 .FAQsec .accordion {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1076,6 +1076,15 @@ ul {
 }
 
 @media (max-width: 1199.98px) {
+  .FAQsec {
+    background-color: #000 !important;
+  }
+  .FAQsec h2 {
+    color: #fff !important;
+  }
+  .FAQsec .accordion-button {
+    color: #fff !important;
+  }
   .HeroSectoin .MianNavbar .subNvabr {
     max-width: 75% !important;
   }
@@ -1138,6 +1147,15 @@ ul {
   }
 }
 @media (max-width: 991.98px) {
+  .FAQsec .Accodion50 {
+    width: 100%;
+  }
+  .FAQsec .InnerAccordion {
+    flex-wrap: wrap;
+  }
+  .InnerSubmit {
+    margin-bottom: 20px;
+  }
   .HeroSectoin .MianNavbar .navbar {
     height: 35px;
   }
