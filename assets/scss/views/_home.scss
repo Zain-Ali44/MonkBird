@@ -316,7 +316,7 @@
     flex-direction: column;
     gap:20px;
     // max-width: 700px;
-    margin-top: 35px;
+    // margin-top: 35px;
     width: 100%;
     // margin-left: auto;
     // margin-right: auto;
@@ -834,8 +834,7 @@
 }
 
 .TalkSection {
-    // background: url(../img/talkus.png);
-    background-color: #000;
+    background: url(../img/talkus.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0px;
@@ -867,7 +866,24 @@
     .contentTalk {
         width: 100%;
     }
-
+.letsTalk
+{
+    background-color: #DF7162 !important;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: #000;
+    max-width: 120px;
+    width: 100%;
+    
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
     h2 {
         font-size: 50px;
         color: #fff;
@@ -996,8 +1012,9 @@
         }
 
         img {
-            max-width: 76px;
+            max-width: 106px;
             width: 100%;
+            border-radius: 20px;
             margin-bottom: 20px;
         }
     }
