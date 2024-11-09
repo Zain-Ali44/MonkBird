@@ -203,6 +203,7 @@ ul {
 .HeroSectoin .MianNavbar .navbar-brand {
   padding: 0px;
   margin: 0px;
+  width: 120px;
 }
 .HeroSectoin .MianNavbar .navbar-brand svg {
   width: 32px;
@@ -1047,6 +1048,11 @@ ul {
 }
 .FooterSec .itemFooter {
   width: calc(20% - 15px);
+}
+.FooterSec .itemFooter .footerLogo {
+  max-width: 120px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 .FooterSec .itemFooter h3 {
   color: #fff;
