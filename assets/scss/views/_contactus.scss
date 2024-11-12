@@ -1,0 +1,76 @@
+.contactUs{
+    padding: 120px 0px;
+    .innercontact{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .contactContent{
+            width: calc(40% - 15px);
+            h2{
+                color: #FFF;
+                font-size: 100px;
+                line-height: 1.2;
+                text-transform: uppercase;
+            }
+            ul{
+             margin-top: 30px;
+             margin-left: 0;
+             margin-right: 0;
+             display: block;
+            }
+            .listIcon{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 20px;
+                span{
+                    color: #FFF;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    font-weight: 500;
+                }
+            }
+            .videosec{
+                width: 130px;
+                height: 130px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                h4{
+                    font-size: 18px;
+                    width: 100%;
+                    color: #FFF;
+                    line-height: 1.2;
+                    margin-top: 5px;
+
+                }
+                span{
+                    color: #dee2e6;
+                    font-size: 12px;
+                }
+               
+            }
+        }
+        .contactBG{
+            width: calc(60% - 15px);
+            background: url(../img/contact-us.webp);
+            background-repeat: no-repeat;
+            padding: 100px 60px;
+            .InnerField{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            .contactField{
+                height: 50px;
+                margin-bottom: 20px;
+            }
+            textarea{
+                border-bottom: 1px solid #dee2e6 !important;
+                border: unset;
+                height: 120px;
+                border-radius: unset;
+            }
+        }
+    }
+}

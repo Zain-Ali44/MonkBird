@@ -223,6 +223,7 @@ ul {
   justify-content: space-between;
   max-width: 500px;
   width: 100%;
+  margin-top: 0px;
 }
 .HeroSectoin .MianNavbar .navbar-nav .nav-item:hover .nav-link {
   background-color: #fff;
@@ -1301,6 +1302,81 @@ ul li.price {
     transform: scale(1);
   }
 }
+.contactUs {
+  padding: 120px 0px;
+}
+.contactUs .innercontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contactUs .innercontact .contactContent {
+  width: calc(40% - 15px);
+}
+.contactUs .innercontact .contactContent h2 {
+  color: #FFF;
+  font-size: 100px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.contactUs .innercontact .contactContent ul {
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+}
+.contactUs .innercontact .contactContent .listIcon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.contactUs .innercontact .contactContent .listIcon span {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.contactUs .innercontact .contactContent .videosec {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactUs .innercontact .contactContent .videosec h4 {
+  font-size: 18px;
+  width: 100%;
+  color: #FFF;
+  line-height: 1.2;
+  margin-top: 5px;
+}
+.contactUs .innercontact .contactContent .videosec span {
+  color: #dee2e6;
+  font-size: 12px;
+}
+.contactUs .innercontact .contactBG {
+  width: calc(60% - 15px);
+  background: url(../img/contact-us.webp);
+  background-repeat: no-repeat;
+  padding: 100px 60px;
+}
+.contactUs .innercontact .contactBG .InnerField {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contactUs .innercontact .contactBG .contactField {
+  height: 50px;
+  margin-bottom: 20px;
+}
+.contactUs .innercontact .contactBG textarea {
+  border-bottom: 1px solid #dee2e6 !important;
+  border: unset;
+  height: 120px;
+  border-radius: unset;
+}
+
 @media (max-width: 1199.98px) {
   .FAQsec {
     background-color: #000 !important;
