@@ -113,3 +113,19 @@ checkbox.addEventListener("click", () => {
     professional.textContent === "$249.99" ? "$24.99 " : "$249.99";
   master.textContent = master.textContent === "$399.99" ? "$39.99" : "$399.99";
 });
+
+let lastScrollTop = 0;
+const socialIcons = document.querySelector('.SocailIconInner');
+
+window.addEventListener('scroll', function() {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+        // Scrolling down - hide social icons
+        socialIcons.classList.add('hidden');
+    } else {
+        // Scrolling up - show social icons
+        socialIcons.classList.remove('hidden');
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Prevent negative scroll value
+});
