@@ -198,8 +198,8 @@ ul {
   align-items: center;
   gap: 20px;
   flex-direction: column;
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 30%;
   left: 70px;
   transition: all 0.8s ease-in-out;
 }
@@ -1639,13 +1639,30 @@ ul li.price {
   }
 }
 @media (max-width: 575.98px) {
+  .HeroSectoin {
+    padding: 100px 0px;
+  }
+  .HeroSectoin .SocailIconInner {
+    top: 31%;
+    left: 20px;
+    transition: all 0.8s ease-in-out;
+  }
+  .HeroSectoin .InnerBtn {
+    margin-top: 30px;
+  }
+  .HeroSectoin p {
+    font-size: 16px;
+    margin-top: 14px;
+    max-width: 326px;
+  }
+  .HeroSectoin h1 {
+    max-width: 370px;
+    font-size: 32px;
+  }
   .container {
     max-width: 95% !important;
     width: 100% !important;
     height: 100% !important;
-  }
-  .HeroSectoin h1 {
-    max-width: 232px;
   }
   .HeroSectoin .postImg {
     width: 70px;
@@ -1676,7 +1693,11 @@ ul li.price {
     padding: 50px 0px;
   }
   .VerstileSec p {
-    font-size: 24px;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .Pricing {
+    padding: 40px 0px 80px 0px;
   }
   .VerstileSec .Innervlog:hover {
     right: 0px;
