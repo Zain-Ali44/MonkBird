@@ -214,7 +214,7 @@ ul {
   height: 250px;
   filter: blur(70px);
   border-radius: 100%;
-  background-color: red;
+  background-color: rgb(162, 19, 19);
 }
 .HeroSectoin .SocailIconInner {
   display: flex;
