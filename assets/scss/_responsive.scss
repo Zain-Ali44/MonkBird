@@ -318,8 +318,19 @@ color: #fff !important;
 //  mobile 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    .HeroSectoin::before {
+        width: 100px;
+        
+        height: 100px;
+    }
+    .HeroSectoin::after {
+        
+        width: 76px;
+        height: 70px;
+        
+    }
     .HeroSectoin {
-        padding: 100px 0px;
+        padding: 150px 0px;
     }
     .HeroSectoin .SocailIconInner {
         top: 31%;
@@ -328,6 +339,8 @@ color: #fff !important;
     }
     .HeroSectoin .InnerBtn {
         margin-top: 30px;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .HeroSectoin p {

@@ -193,6 +193,29 @@ ul {
   padding: 200px 0px;
   position: relative;
 }
+.HeroSectoin::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 250px;
+  height: 250px;
+  filter: blur(70px);
+  border-radius: 100%;
+  background-color: #1d2cf3;
+}
+.HeroSectoin::before {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  display: block;
+  width: 250px;
+  right: 0;
+  height: 250px;
+  filter: blur(70px);
+  border-radius: 100%;
+  background-color: red;
+}
 .HeroSectoin .SocailIconInner {
   display: flex;
   align-items: center;
@@ -1639,8 +1662,16 @@ ul li.price {
   }
 }
 @media (max-width: 575.98px) {
+  .HeroSectoin::before {
+    width: 100px;
+    height: 100px;
+  }
+  .HeroSectoin::after {
+    width: 76px;
+    height: 70px;
+  }
   .HeroSectoin {
-    padding: 100px 0px;
+    padding: 150px 0px;
   }
   .HeroSectoin .SocailIconInner {
     top: 31%;
@@ -1649,6 +1680,8 @@ ul li.price {
   }
   .HeroSectoin .InnerBtn {
     margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
   }
   .HeroSectoin p {
     font-size: 16px;
