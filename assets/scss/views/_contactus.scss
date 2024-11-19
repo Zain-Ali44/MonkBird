@@ -1,5 +1,6 @@
 .contactUs{
     padding: 120px 0px;
+
     .innercontact{
         display: flex;
         align-items: center;
@@ -56,6 +57,9 @@
             background: url(../img/contact-us.webp);
             background-repeat: no-repeat;
             padding: 100px 60px;
+            position: relative;
+            z-index: 9;
+
             .InnerField{
                 display: flex;
                 align-items: center;
@@ -70,7 +74,97 @@
                 border: unset;
                 height: 120px;
                 border-radius: unset;
+                margin-bottom: 20px;
             }
         }
     }
 }
+.modal-content{
+    background:#000;
+.modal-header{
+    border: unset;
+}
+    .MainModel{
+        max-width: 130px;
+        width: 100%;
+    }
+.fa-solid.fa-xmark{
+    color: #fff;
+    font-size: 20px;
+}
+.modal-body{
+    p{
+        color: #dee2e6;
+        font-size: 16px;
+        line-height: 1.2;
+        max-width: 200px;
+        width:100%;
+        margin-bottom: 20px;
+
+    }
+    .meetingIcon{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom: 10px;
+        i{
+            color: #dee2e6;
+            font-size: 16px;
+            line-height: 1;
+        
+        }
+        
+    
+    }
+    .InnerWorld{
+        display: flex;
+        align-items: center;
+        i{
+            color: #dee2e6;
+            font-size: 16px;
+            line-height: 1;  
+        }
+    }
+    .form-select{
+background: unset;
+color: #dee2e6;
+border: unset;
+&:focus{
+box-shadow: unset;
+option{
+    color: #000;
+    line-height: 1;
+    font-size: 16px;
+}
+}
+    }
+}
+}
+span{
+    font-size: 16px;
+    color: #dee2e6;
+    line-height: 1.2;
+    margin-left: 5px;
+    }
+.InnerdateIcon{
+    position: relative;
+    .dateIcon{
+        position: absolute;
+        color: #dee2e6;
+        font-size: 16px;
+        line-height: 1;
+        right: 0;
+        top: 50%;
+
+    }
+}
+.dateCander{
+    background-color: unset;
+    color: #fff;
+    margin-top: 10px;
+    border: unset;
+}
+
+
+
+    

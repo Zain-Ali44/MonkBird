@@ -242,6 +242,10 @@ ul {
   height: 49px;
   padding: 0px;
 }
+.HeroSectoin .MianNavbar .InnerMbile {
+  display: flex;
+  align-items: center;
+}
 .HeroSectoin .MianNavbar .navbar-brand {
   padding: 0px;
   margin: 0px;
@@ -1402,6 +1406,8 @@ ul li.price {
   background: url(../img/contact-us.webp);
   background-repeat: no-repeat;
   padding: 100px 60px;
+  position: relative;
+  z-index: 9;
 }
 .contactUs .innercontact .contactBG .InnerField {
   display: flex;
@@ -1417,6 +1423,89 @@ ul li.price {
   border: unset;
   height: 120px;
   border-radius: unset;
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  background: #000;
+}
+.modal-content .modal-header {
+  border: unset;
+}
+.modal-content .MainModel {
+  max-width: 130px;
+  width: 100%;
+}
+.modal-content .fa-solid.fa-xmark {
+  color: #fff;
+  font-size: 20px;
+}
+.modal-content .modal-body p {
+  color: #dee2e6;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.modal-content .modal-body .meetingIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.modal-content .modal-body .meetingIcon i {
+  color: #dee2e6;
+  font-size: 16px;
+  line-height: 1;
+}
+.modal-content .modal-body .InnerWorld {
+  display: flex;
+  align-items: center;
+}
+.modal-content .modal-body .InnerWorld i {
+  color: #dee2e6;
+  font-size: 16px;
+  line-height: 1;
+}
+.modal-content .modal-body .form-select {
+  background: unset;
+  color: #dee2e6;
+  border: unset;
+}
+.modal-content .modal-body .form-select:focus {
+  box-shadow: unset;
+}
+.modal-content .modal-body .form-select:focus option {
+  color: #000;
+  line-height: 1;
+  font-size: 16px;
+}
+
+span {
+  font-size: 16px;
+  color: #dee2e6;
+  line-height: 1.2;
+  margin-left: 5px;
+}
+
+.InnerdateIcon {
+  position: relative;
+}
+.InnerdateIcon .dateIcon {
+  position: absolute;
+  color: #dee2e6;
+  font-size: 16px;
+  line-height: 1;
+  right: 0;
+  top: 50%;
+}
+
+.dateCander {
+  background-color: unset;
+  color: #fff;
+  margin-top: 10px;
+  border: unset;
 }
 
 @media (max-width: 1199.98px) {
@@ -1664,11 +1753,19 @@ ul li.price {
 @media (max-width: 575.98px) {
   .HeroSectoin::before {
     width: 100px;
+    filter: blur(40px);
     height: 100px;
   }
+  .BookBtn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
   .HeroSectoin::after {
+    filter: blur(40px);
     width: 76px;
     height: 70px;
+    top: 135px;
   }
   .HeroSectoin {
     padding: 150px 0px;

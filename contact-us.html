@@ -23,15 +23,21 @@
                 <div class="subNvabr">
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logo.png" alt="">
+                            <img src="assets/img/main-logo.png" alt="">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
+                        <div class="InnerMbile">
+                            <a class="BookBtn d-lg-none d-block" href="contact-us.html">
+                                Book a call
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+
+                        </div>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-0">
                                 <button class="navbar-toggler CrossIcon" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -47,16 +53,17 @@
                                     <a class="nav-link" href="#section2" href="">Benefits</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section2" href="">Pricing</a>
+                                    <a class="nav-link" href="" href="#section2" id="link-faqs">Pricing</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#section4" href="#section2" id="link-faqs">FAQs</a>
                                 </li>
+
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact-us.html#section5">Book a cell</a>
+                                    <a class="nav-link" href="#section5">Get in Touch</a>
                                 </li>
                             </ul>
-                            <a class="BookBtn" href="">
+                            <a class="BookBtn" href="contact-us.html">
                                 Book a call
                             </a>
                         </div>
@@ -69,21 +76,25 @@
                     <div class="contactContent">
                         <h2>Let’s <br>
                             Talk</h2>
-                            <ul>
-                                <li class="listIcon"><img src="assets/img/list-icon.svg" alt=""><span>We will respond to you within 24 hours.</span></li>
-                                <li class="listIcon"><img src="assets/img/list-icon.svg" alt=""><span>We will respond to you within 24 hours.</span></li>
-                                <li class="listIcon"><img src="assets/img/list-icon.svg" alt=""><span>We will respond to you within 24 hours.</span></li>
-                            </ul>
-                            <div class="videosec">
-                                <video style="width: 100%; height: 100%" autoplay="" loop="" muted="" playsinline="" poster="https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/64b681538fc68c419355c8fe_video-poster_contact.webp">
-                                    <source src="https://d3vlq52qrgdnc2.cloudfront.net/Contacts.webm" type="video/webm">
-                                    <source src="https://d3vlq52qrgdnc2.cloudfront.net/Contacts.mp4" type="video/mp4">
-                                  </video>
-                                  <div>
-                                  <span>DIRECT CONTACT:</span>
-                                  <h4>inquiry@halo-lab.com</h4>
-                                </div>
+                        <ul>
+                            <li class="listIcon"><img src="assets/img/list-icon.svg" alt=""><span>We will respond to you
+                                    within 24 hours.</span></li>
+                            <li class="listIcon"><img src="assets/img/list-icon.svg" alt=""><span>We will respond to you
+                                    within 24 hours.</span></li>
+                            <li class="listIcon"><img src="assets/img/list-icon.svg" alt=""><span>We will respond to you
+                                    within 24 hours.</span></li>
+                        </ul>
+                        <div class="videosec">
+                            <video style="width: 100%; height: 100%" autoplay="" loop="" muted="" playsinline=""
+                                poster="https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/64b681538fc68c419355c8fe_video-poster_contact.webp">
+                                <source src="https://d3vlq52qrgdnc2.cloudfront.net/Contacts.webm" type="video/webm">
+                                <source src="https://d3vlq52qrgdnc2.cloudfront.net/Contacts.mp4" type="video/mp4">
+                            </video>
+                            <div>
+                                <span>DIRECT CONTACT:</span>
+                                <h4>inquiry@halo-lab.com</h4>
                             </div>
+                        </div>
                     </div>
                     <div class="contactBG">
                         <div class="InnerField">
@@ -120,9 +131,16 @@
                             </div>
                         </div>
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
                             <label for="floatingTextarea">About Project</label>
-                          </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <a href="" class="BookBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Schedule Metting
+                        </a>
+
+
                     </div>
 
                 </div>
@@ -130,7 +148,54 @@
         </div>
     </Section>
     <!-- Navbar End -->
-
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <img class="MainModel" src="assets/img/main-logo.png" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Let's have quick discovery meeting to understand better how we can help you</p>
+                    <div class="meetingIcon">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>30 min</span>
+                    </div>
+                    <div class="meetingIcon">
+                        <i class="fa-solid fa-video"></i>
+                        <span>Google Meet</span>
+                    </div>
+                    <div class="InnerWorld">
+                        
+                    <i class="fa-solid fa-globe"></i>
+                    <span>Asia</span>
+                    
+                    <select class="form-select" aria-label="Default select example">
+                     
+                        <option selected="">Karachi</option>
+                        <option value="1">Lahore 1</option>
+                        <option value="2">lahore 2</option>
+                        <option value="3">lahore 3</option>
+                    </select>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="InnerdateIcon">
+                    <input class="dateCander form-control" type="date">
+                    <i class="dateIcon fa-solid fa-calendar-days">
+                    </i>
+                </div>
+                
+                </div>
+                <div class="modal-footer">
+                    <a  class="BookBtn" data-bs-dismiss="modal">Close</a>
+                    <a  class="BookBtn" data-bs-dismiss="modal">Submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- <section class="SubmitForm">
         <div class="container">
             <h2>Ready To Grow ?</h2>

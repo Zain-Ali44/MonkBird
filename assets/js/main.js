@@ -114,3 +114,4 @@ checkbox.addEventListener("click", () => {
   master.textContent = master.textContent === "$399.99" ? "$39.99" : "$399.99";
 });
 
+
