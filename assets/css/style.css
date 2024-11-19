@@ -1509,6 +1509,18 @@ span {
 }
 
 @media (max-width: 1199.98px) {
+  .HeroSectoin .MianNavbar .navbar-brand {
+    height: 40px;
+  }
+  .contactUs .innercontact {
+    flex-wrap: wrap;
+  }
+  .contactUs .innercontact .contactContent {
+    width: 100%;
+  }
+  .contactUs .innercontact .contactBG {
+    width: 100%;
+  }
   .FAQsec {
     background-color: #000 !important;
   }
@@ -1519,7 +1531,7 @@ span {
     color: #fff !important;
   }
   .HeroSectoin .MianNavbar .subNvabr {
-    max-width: 75% !important;
+    max-width: 85% !important;
   }
   .HeroSectoin h1 {
     font-size: 60px;
@@ -1580,6 +1592,13 @@ span {
   }
 }
 @media (max-width: 991.98px) {
+  .BookBtn {
+    font-size: 15px;
+    padding: 5px 16px;
+  }
+  .HeroSectoin .MianNavbar .subNvabr {
+    max-width: 80% !important;
+  }
   .FAQsec .Accodion50 {
     width: 100%;
   }
@@ -1594,9 +1613,6 @@ span {
   }
   .navbar-toggler i {
     color: #fff;
-  }
-  .HeroSectoin .MianNavbar .subNvabr {
-    max-width: 95% !important;
   }
   .HeroSectoin .MianNavbar .navbar-nav .nav-link {
     text-align: start !important;
@@ -1751,6 +1767,19 @@ span {
   }
 }
 @media (max-width: 575.98px) {
+  .contactUs .innercontact .contactBG .InnerField {
+    flex-wrap: wrap;
+  }
+  .contactUs .innercontact .contactContent h2 {
+    font-size: 52px;
+  }
+  .contactUs .innercontact .contactBG {
+    padding: 81px 30px;
+  }
+  .contactUs .innercontact .contactContent ul {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
   .HeroSectoin::before {
     width: 100px;
     filter: blur(40px);
