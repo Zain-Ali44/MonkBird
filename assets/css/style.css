@@ -1481,8 +1481,7 @@ ul li.price {
   line-height: 1;
   font-size: 16px;
 }
-
-span {
+.modal-content span {
   font-size: 16px;
   color: #dee2e6;
   line-height: 1.2;
