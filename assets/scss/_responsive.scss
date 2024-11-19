@@ -335,6 +335,11 @@ color: #fff !important;
 //  mobile 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    .contactUs {
+        padding: 120px 0px 0px 0px;
+    }
+    
+    
     .contactUs .innercontact .contactBG .InnerField {
         
         flex-wrap: wrap;
