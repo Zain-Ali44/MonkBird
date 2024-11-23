@@ -37,28 +37,7 @@
                 }
             }
 
-            .videosec {
-                width: 130px;
-                height: 130px;
-                display: flex;
-                align-items: center;
-                gap: 10px;
-
-                h4 {
-                    font-size: 18px;
-                    width: 100%;
-                    color: #FFF;
-                    line-height: 1.2;
-                    margin-top: 5px;
-
-                }
-
-                span {
-                    color: #dee2e6;
-                    font-size: 12px;
-                }
-
-            }
+            
         }
 
         .contactBG {
@@ -78,14 +57,23 @@
             .contactField {
                 height: 50px;
                 margin-bottom: 20px;
+                border-bottom: 1px solid #dee2e6 !important;
+                border: unset;
+                border-radius: unset;
             }
-
+.form-select{
+    height: 50px;
+    border-bottom: 1px solid #dee2e6 !important;
+                border: unset;
+                border-radius: unset;
+}
             textarea {
                 border-bottom: 1px solid #dee2e6 !important;
                 border: unset;
                 height: 120px;
                 border-radius: unset;
                 margin-bottom: 20px;
+                
             }
         }
     }

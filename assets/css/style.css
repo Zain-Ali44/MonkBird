@@ -220,10 +220,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 20px;
-  flex-direction: column;
-  position: absolute;
-  top: 30%;
-  left: 70px;
+  margin-top: 20px;
+  justify-content: center;
   transition: all 0.8s ease-in-out;
 }
 .HeroSectoin .SocailIconInner .SocailFixed {
@@ -352,7 +350,7 @@ ul {
 }
 .HeroSectoin .InnerBtn {
   gap: 0px 10px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .HeroSectoin .reboteIMG {
   position: absolute;
@@ -1383,24 +1381,6 @@ ul li.price {
   line-height: 1.2;
   font-weight: 500;
 }
-.contactUs .innercontact .contactContent .videosec {
-  width: 130px;
-  height: 130px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.contactUs .innercontact .contactContent .videosec h4 {
-  font-size: 18px;
-  width: 100%;
-  color: #FFF;
-  line-height: 1.2;
-  margin-top: 5px;
-}
-.contactUs .innercontact .contactContent .videosec span {
-  color: #dee2e6;
-  font-size: 12px;
-}
 .contactUs .innercontact .contactBG {
   width: calc(60% - 15px);
   background: url(../img/contact-us.webp);
@@ -1417,6 +1397,15 @@ ul li.price {
 .contactUs .innercontact .contactBG .contactField {
   height: 50px;
   margin-bottom: 20px;
+  border-bottom: 1px solid #dee2e6 !important;
+  border: unset;
+  border-radius: unset;
+}
+.contactUs .innercontact .contactBG .form-select {
+  height: 50px;
+  border-bottom: 1px solid #dee2e6 !important;
+  border: unset;
+  border-radius: unset;
 }
 .contactUs .innercontact .contactBG textarea {
   border-bottom: 1px solid #dee2e6 !important;
@@ -1513,6 +1502,7 @@ ul li.price {
   }
   .contactUs .innercontact {
     flex-wrap: wrap;
+    gap: 30px;
   }
   .contactUs .innercontact .contactContent {
     width: 100%;
