@@ -1639,7 +1639,7 @@ ul li.price {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   }
   .navbar-collapse.show {
-    left: -20px !important;
+    left: -78px !important;
     overflow-y: auto;
   }
   .HeroSectoin h1 {
@@ -1768,6 +1768,9 @@ ul li.price {
   }
 }
 @media (max-width: 575.98px) {
+  .navbar-collapse.show {
+    left: -40px !important;
+  }
   .contactUs {
     padding: 120px 0px 0px 0px;
   }
