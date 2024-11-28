@@ -184,8 +184,10 @@ ul {
 }
 
 .hidden {
-  opacity: 0; /* Hide the icons */
-  pointer-events: none; /* Prevent interaction with hidden icons */
+  opacity: 0;
+  /* Hide the icons */
+  pointer-events: none;
+  /* Prevent interaction with hidden icons */
 }
 
 .HeroSectoin {
@@ -906,8 +908,19 @@ ul {
 .TalkSection .contentTalk {
   width: 100%;
 }
+.TalkSection .contentTalk .InnerTalksInput {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .TalkSection .letsTalk {
-  background-color: #DF7162 !important;
+  background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
   padding: 10px 15px;
   border-radius: 30px;
   color: #fff;
@@ -920,7 +933,6 @@ ul {
   line-height: 1.2;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
 }
 .TalkSection h2 {
   font-size: 50px;
