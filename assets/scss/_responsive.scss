@@ -340,7 +340,11 @@ color: #fff !important;
         left: -40px !important;
        
     }
-
+    .TalkSection .contentTalk .InnerTalksInput {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
     .contactUs {
         padding: 120px 0px 0px 0px;
     }
