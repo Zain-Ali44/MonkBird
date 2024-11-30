@@ -1769,6 +1769,9 @@ ul li.price {
   }
 }
 @media (max-width: 575.98px) {
+  .rocks-wrapper .waves-video {
+    height: 300px;
+  }
   .navbar-collapse.show {
     left: -40px !important;
   }

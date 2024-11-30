@@ -336,6 +336,11 @@ color: #fff !important;
 //  mobile 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    .rocks-wrapper .waves-video {
+      
+        height: 300px;
+       
+    }
     .navbar-collapse.show {
         left: -40px !important;
        
