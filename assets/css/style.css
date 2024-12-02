@@ -207,29 +207,21 @@ ul {
   background-color: #000;
   padding: 200px 0px;
   position: relative;
+  overflow: hidden;
 }
 .HeroSectoin::after {
   content: "";
   position: absolute;
-  top: 0;
+  bottom: -100px;
+  left: 0px;
+  margin: auto;
   display: block;
-  width: 250px;
+  width: 560px;
   height: 250px;
   filter: blur(70px);
   border-radius: 100%;
   background-color: #1d2cf3;
-}
-.HeroSectoin::before {
-  content: "";
-  position: absolute;
-  bottom: 50px;
-  display: block;
-  width: 250px;
-  right: 0;
-  height: 250px;
-  filter: blur(70px);
-  border-radius: 100%;
-  background-color: rgb(162, 19, 19);
+  right: 0px;
 }
 .HeroSectoin .MianNavbar {
   position: fixed;
@@ -907,26 +899,34 @@ ul {
   flex-wrap: wrap;
 }
 .TalkSection .contentTalk {
+  max-width: 600px;
   width: 100%;
 }
-.TalkSection .contentTalk .InnerTalksInput {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  gap: 20px;
+.TalkSection .contentTalk .form-control {
+  background: unset;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 16px;
+  height: 45px;
+  border-radius: unset;
+}
+.TalkSection .contentTalk .form-control::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+.TalkSection .innerCheckbox {
   display: flex;
   align-items: center;
-  max-width: 700px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  gap: 20px;
 }
 .TalkSection .letsTalk {
   background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
   padding: 10px 15px;
   border-radius: 30px;
   color: #fff;
-  max-width: 120px;
+  max-width: 100%;
   width: 100%;
+  margin-bottom: 20px;
   text-align: center;
   display: block;
   font-size: 16px;
@@ -950,10 +950,12 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
-  max-width: 800px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 20px;
+}
+.TalkSection span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
 }
 .TalkSection .BookYour {
   font-size: 18px;
