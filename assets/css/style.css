@@ -208,16 +208,18 @@ ul {
   padding: 200px 0px;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 .HeroSectoin::after {
   content: "";
   position: absolute;
-  bottom: -100px;
+  bottom: -170px;
+  z-index: -1;
   left: 0px;
   margin: auto;
   display: block;
-  width: 560px;
-  height: 250px;
+  width: 900px;
+  height: 400px;
   filter: blur(70px);
   border-radius: 100%;
   background-color: #1d2cf3;
