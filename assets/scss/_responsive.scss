@@ -390,9 +390,10 @@ color: #fff !important;
     }    
     .HeroSectoin::after {
         filter: blur(40px);
-        width: 76px;
-        height: 70px;
-        top: 135px;
+        width: 560px;
+        height: 180px;
+        left: -50px;
+       bottom: -50px;
         
     }
     .HeroSectoin {
