@@ -1031,6 +1031,9 @@ ul {
 .AwaitSec .AwaitContentBox {
   width: calc(33.33% - 15px);
 }
+.AwaitSec .AwaitContentBox .RationIcon {
+  filter: brightness(0) saturate(100%) invert(1);
+}
 .AwaitSec .AwaitGift {
   text-align: center;
   display: flex;
@@ -1693,11 +1696,8 @@ ul li.price {
     font-size: 20px;
   }
   .AwaitSec .AwaitGift img {
-    max-width: 60px;
+    max-width: 120px;
     margin-bottom: 10px;
-  }
-  .AwaitSec .AwaitGift h3 {
-    font-size: 26px;
   }
   .GiftImg h2 {
     font-size: 42px;

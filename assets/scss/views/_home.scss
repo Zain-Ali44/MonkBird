@@ -1090,6 +1090,9 @@ span{
 
     .AwaitContentBox {
         width: calc(33.33% - 15px);
+        .RationIcon{
+            filter: brightness(0) saturate(100%) invert(1)
+        }
     }
 
 
