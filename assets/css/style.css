@@ -246,6 +246,9 @@ ul {
   margin: 0px;
   width: 120px;
 }
+.HeroSectoin .MianNavbar .navbar-brand img {
+  height: 30px;
+}
 .HeroSectoin .MianNavbar .navbar-brand svg {
   width: 32px;
   color: #fff;
