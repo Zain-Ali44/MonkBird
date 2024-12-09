@@ -515,6 +515,7 @@ ul {
 .GiftImg h2 {
   font-size: 51px;
   color: #fff;
+  font-weight: 700;
   line-height: 1.2;
   text-align: center;
 }
@@ -714,19 +715,19 @@ ul {
   z-index: 1;
 }
 .inspireSec .InnerInspire .InspireBox.Products {
-  background-color: rgb(171, 187, 207);
+  background-color: rgb(229, 140, 49);
 }
 .inspireSec .InnerInspire .InspireBox.reals {
-  background-color: #FDF397;
+  background-color: rgba(247, 232, 56, 0.9411764706);
 }
 .inspireSec .InnerInspire .InspireBox.talking {
-  background-color: rgb(100, 100, 108);
+  background-color: rgb(130, 96, 197);
 }
 .inspireSec .InnerInspire .InspireBox.facelace {
-  background-color: #999999;
+  background-color: #4c66e3;
 }
 .inspireSec .InnerInspire .InspireBox.tiktok {
-  background-color: #AEEFC5;
+  background-color: #1ae762;
 }
 .inspireSec .InnerInspire .InspireBox h3 {
   color: #000;
@@ -1069,7 +1070,7 @@ ul {
   width: 100%;
 }
 .AwaitSec .AwaitGift img {
-  max-width: 106px;
+  max-width: 85px;
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -1709,10 +1710,6 @@ ul li.price {
   }
   .AwaitSec p {
     font-size: 20px;
-  }
-  .AwaitSec .AwaitGift img {
-    max-width: 120px;
-    margin-bottom: 10px;
   }
   .GiftImg h2 {
     font-size: 42px;
