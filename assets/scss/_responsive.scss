@@ -49,7 +49,7 @@ color: #fff !important;
     }
 
     .VerstileSec p {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .VerstileSec .Innervlog .VlogItem h3 {
@@ -99,12 +99,21 @@ color: #fff !important;
         font-size: 135px;
         margin-bottom: 25px;
     }
+    .inspireSec p {
+        font-size: 22px;
+    }
+    .GiftImg p {
+        font-size: 22px;
+    }
 }
 
 //  ipad 
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+    .GiftImg p {
+        font-size: 18px;
+    }
     .BookBtn {
         font-size: 15px;
         padding: 5px 16px;
@@ -187,7 +196,7 @@ color: #fff !important;
     }
 
     .VerstileSec p {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     .getBtn {
@@ -320,6 +329,9 @@ color: #fff !important;
 
     .HeroSectoin .musicImg {
         width: 70px;
+    }
+    .inspireSec p {
+        font-size: 18px;
     }
 
 }
@@ -458,10 +470,10 @@ color: #fff !important;
     .inspireSec {
         padding: 30px 0px;
     }
-    .VerstileSec p {
-        font-size: 17px;
-        margin-top: 20px;
+    .inspireSec p {
+        margin-top: 15px;
     }
+    
     .Pricing {
         padding: 40px 0px 80px 0px;
     }
