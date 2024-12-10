@@ -1799,6 +1799,9 @@ ul li.price {
   }
 }
 @media (max-width: 575.98px) {
+  .AwaitSec .AwaitGift img {
+    max-width: 70px;
+  }
   .TalkSection span {
     font-size: 12px;
   }
