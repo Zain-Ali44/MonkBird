@@ -717,19 +717,19 @@ ul {
   z-index: 1;
 }
 .inspireSec .InnerInspire .InspireBox.Products {
-  background-color: rgba(211, 129, 45, 0.86);
+  background-color: rgba(229, 125, 18, 0.86);
 }
 .inspireSec .InnerInspire .InspireBox.reals {
-  background-color: rgba(243, 230, 84, 0.83);
+  background-color: #ffc107;
 }
 .inspireSec .InnerInspire .InspireBox.talking {
-  background-color: rgba(13, 177, 70, 0.72);
+  background-color: #198334;
 }
 .inspireSec .InnerInspire .InspireBox.facelace {
   background-color: rgba(73, 98, 215, 0.64);
 }
 .inspireSec .InnerInspire .InspireBox.tiktok {
-  background-color: rgba(146, 129, 181, 0.61);
+  background-color: rgba(136, 112, 185, 0.75);
 }
 .inspireSec .InnerInspire .InspireBox h3 {
   color: #000;
