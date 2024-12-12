@@ -331,7 +331,7 @@ color: #fff !important;
         width: 70px;
     }
     .inspireSec p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
 }
@@ -339,6 +339,9 @@ color: #fff !important;
 //  mobile 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    .AwaitSec .AwaitGift img {
+               margin-bottom: 10px;
+    }
     .AwaitSec .AwaitGift img {
         max-width: 70px;}
     .TalkSection span {
@@ -536,15 +539,15 @@ color: #fff !important;
     }
 
     .Fanssec h2 {
-        font-size: 65px;
+        font-size: 75px;
     }
 
     .Fanssec span {
-        font-size: 65px;
+        font-size: 75px;
     }
 
     .Fanssec h3 {
-        font-size: 65px;
+        font-size: 75px;
     }
 
     .FAQsec h2 {
@@ -557,8 +560,9 @@ color: #fff !important;
     }
 
     .TalkSection p {
-        font-size: 14px;
+        font-size: 20px;
     }
+
 
     .TalkSection .RequestBtn {
         max-width: 125px;
