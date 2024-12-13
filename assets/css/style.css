@@ -460,7 +460,6 @@ ul {
   transform: rotate(0deg);
 }
 .FAQsec .accordion-button {
-  color: #000;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
@@ -1548,9 +1547,6 @@ ul li.price {
   }
   .contactUs .innercontact .contactBG {
     width: 100%;
-  }
-  .FAQsec {
-    background-color: #000 !important;
   }
   .FAQsec h2 {
     color: #fff !important;
