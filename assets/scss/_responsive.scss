@@ -110,9 +110,9 @@
         font-size: 15px;
         padding: 5px 16px;
     }
-    .HeroSectoin .MianNavbar .subNvabr {
-        max-width: 80% !important;
-    }
+    // .HeroSectoin .MianNavbar .subNvabr {
+    //     max-width: 80% !important;
+    // }
     .FAQsec .Accodion50 {
         width: 100%;
     }
@@ -406,8 +406,8 @@ color: #000 !important;
     }
     .BookBtn {
         display: inline-block;
-        padding: 5px 10px;
-    font-size: 14px;
+        padding: 8px 20px;
+        font-size: 14px
     }    
     .HeroSectoin::after {
         filter: blur(40px);

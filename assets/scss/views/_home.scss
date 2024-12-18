@@ -262,7 +262,7 @@ font-weight: bold;
 }
 
 .BookBtn {
-    margin-top: 15px;
+
     display: inline-block;
     padding: 10px 25px;
     background: repeat padding-box border-box 61% 50% / 150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
@@ -1270,6 +1270,9 @@ span{
 .Pricing {
     background-color: #111111;
     padding: 50px 0px 140px 0px;
+    .BookBtn{
+margin-top: 15px;
+    }
 }
 
 header {

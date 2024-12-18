@@ -395,7 +395,6 @@ ul {
 }
 
 .BookBtn {
-  margin-top: 15px;
   display: inline-block;
   padding: 10px 25px;
   background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
@@ -1183,6 +1182,9 @@ ul {
   background-color: #111111;
   padding: 50px 0px 140px 0px;
 }
+.Pricing .BookBtn {
+  margin-top: 15px;
+}
 
 header {
   color: white;
@@ -1623,9 +1625,6 @@ ul li.price {
     font-size: 15px;
     padding: 5px 16px;
   }
-  .HeroSectoin .MianNavbar .subNvabr {
-    max-width: 80% !important;
-  }
   .FAQsec .Accodion50 {
     width: 100%;
   }
@@ -1851,7 +1850,7 @@ ul li.price {
   }
   .BookBtn {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 8px 20px;
     font-size: 14px;
   }
   .HeroSectoin::after {
