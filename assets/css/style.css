@@ -1812,6 +1812,7 @@ ul li.price {
   }
   .AwaitSec .AwaitGift img {
     max-width: 70px;
+    object-fit: scale-down;
   }
   .TalkSection span {
     font-size: 12px;

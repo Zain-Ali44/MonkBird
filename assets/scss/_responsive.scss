@@ -353,7 +353,9 @@ color: #000 !important;
                margin-bottom: 10px;
     }
     .AwaitSec .AwaitGift img {
-        max-width: 70px;}
+        max-width: 70px;
+        object-fit: scale-down;
+    }
     .TalkSection span {
         font-size: 12px;
     }
