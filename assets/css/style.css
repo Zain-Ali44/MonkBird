@@ -395,6 +395,7 @@ ul {
 }
 
 .BookBtn {
+  margin-top: 15px;
   display: inline-block;
   padding: 10px 25px;
   background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
@@ -760,7 +761,6 @@ ul {
   position: relative;
 }
 .WellComWrapper h2 span {
-  font-style: italic;
   font-weight: 800;
 }
 .WellComWrapper h3 {
@@ -1072,7 +1072,7 @@ ul {
   width: 100%;
 }
 .AwaitSec .AwaitGift img {
-  max-width: 85px;
+  max-width: 70px;
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -1548,12 +1548,6 @@ ul li.price {
   .contactUs .innercontact .contactBG {
     width: 100%;
   }
-  .FAQsec h2 {
-    color: #fff !important;
-  }
-  .FAQsec .accordion-button {
-    color: #fff !important;
-  }
   .HeroSectoin .MianNavbar .subNvabr {
     max-width: 85% !important;
   }
@@ -1754,7 +1748,25 @@ ul li.price {
   }
   .FAQsec {
     padding: 70px 0px;
+    background-color: #fff;
+  }
+  .FAQsec:hover {
     background-color: #000;
+  }
+  .FAQsec h2 {
+    color: #000;
+  }
+  .FAQsec .accordion-button {
+    color: #000 !important;
+  }
+  .FAQsec:hover .accordion-body {
+    color: #fff;
+  }
+  .FAQsec:hover .accordion-button {
+    color: #fff !important;
+  }
+  .FAQsec:hover h2 {
+    color: #fff !important;
   }
   .TalkSection .InnerTalk {
     flex-wrap: wrap;
@@ -1951,13 +1963,13 @@ ul li.price {
     text-align: center;
   }
   .WellComWrapper h2 {
-    font-size: 75px;
+    font-size: 67px;
   }
   .WellComWrapper h3 {
-    font-size: 75px;
+    font-size: 67px;
   }
   .Fanssec h2 {
-    font-size: 75px;
+    font-size: 67px;
   }
   .Fanssec span {
     font-size: 75px;

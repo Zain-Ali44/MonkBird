@@ -262,6 +262,7 @@ font-weight: bold;
 }
 
 .BookBtn {
+    margin-top: 15px;
     display: inline-block;
     padding: 10px 25px;
     background: repeat padding-box border-box 61% 50% / 150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
@@ -749,7 +750,7 @@ i{
         position: relative;
 
         span {
-            font-style: italic;
+            // font-style: italic;
             font-weight: 800;
         }
 
@@ -1134,7 +1135,7 @@ span{
         }
 
         img {
-            max-width: 85px;
+            max-width: 70px;
             width: 100%;
             border-radius: 20px;
             margin-bottom: 20px;

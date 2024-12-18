@@ -14,15 +14,7 @@
     }
     .contactUs .innercontact .contactBG {
         width: 100%}
-    .FAQsec{
-       
-        h2{
-            color: #fff !important;
-        }
-        .accordion-button{
-color: #fff !important;
-        }
-    }
+
     .HeroSectoin .MianNavbar .subNvabr {
         max-width: 85% !important;
     }
@@ -282,9 +274,27 @@ color: #fff !important;
 
     .FAQsec {
         padding: 70px 0px;
-        background-color: #000;
+        background-color: #fff;
+        &:hover{
+            background-color: #000;
+        }
+        h2{
+            color: #000 ;
+        }
+        .accordion-button{
+color: #000 !important;
+        }
     }
-
+    .FAQsec:hover .accordion-body {
+        color: #fff;
+       
+    }
+    .FAQsec:hover .accordion-button {
+        color: #fff !important;
+    }
+    .FAQsec:hover h2 {
+        color: #fff !important;
+    }
     .TalkSection .InnerTalk {
         flex-wrap: wrap;
     }
@@ -531,15 +541,15 @@ color: #fff !important;
     }
 
     .WellComWrapper h2 {
-        font-size: 75px;
+        font-size: 67px;
     }
 
     .WellComWrapper h3 {
-        font-size: 75px;
+        font-size: 67px;
     }
 
     .Fanssec h2 {
-        font-size: 75px;
+        font-size: 67px;
     }
 
     .Fanssec span {
